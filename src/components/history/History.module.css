@@ -1,0 +1,13 @@
+.history {
+  flex: 1 1 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 25vw;
+  min-width: 400px;
+  height: 50vh;
+  max-height: 600px;
+  border: 5px solid var(--bg-secondary-color);
+  border-radius: 1em;
+  padding: 1em;
+}

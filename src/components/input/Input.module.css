@@ -1,0 +1,25 @@
+.message-form {
+  width: 25vw;
+  height: auto;
+  min-width: 400px;
+  margin: 0.5em auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.message-input {
+  flex-grow: 1;
+  border: 2px solid var(--color-lightGrey);
+  padding: 1em;
+  border-radius: 10px 0 0 10px;
+}
+
+.message-submit {
+  border-radius: 0 10px 10px 0;
+  background-color: var(--color-primary);
+  border: none;
+  display: flex;
+  place-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}

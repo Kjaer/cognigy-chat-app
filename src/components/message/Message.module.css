@@ -1,0 +1,28 @@
+.message-wrapper {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: column;
+  margin: 0 0 1em;
+}
+.message-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.message {
+  border-radius: 10px;
+  margin: 0;
+  padding: 0.25em 1em;
+  max-width: 75%;
+  text-align: left;
+}
+
+.incoming-message {
+  background-color: var(--color-lightGrey);
+  color: var(--color-darkGrey);
+  align-self: flex-start;
+}
+.outgoing-message {
+  background-color: var(--color-primary);
+  color: white;
+  align-self: flex-end;
+}

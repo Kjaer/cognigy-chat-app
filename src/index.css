@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-secondary-color: #f3f3f6;
+  --color-primary: #14854f;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --font-size: 1.6rem;
+  --font-color: #333333;
+  --font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-color);
+  line-height: 1.6;
+  font-size: var(--font-size);
+  color: var(--font-color);
+  font-family: var(--font-family-sans);
+  margin: 0;
+  padding: 0;
+}

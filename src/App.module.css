@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  place-content: center;
+  place-items: center;
+}
+
+.no-message{
+  display: inline-flex;
+  align-self: center;
+  padding: 1em 2em;
+  border-radius: 15px;
+  background-color: var(--bg-secondary-color);
+  color: var(--color-grey);
+}
